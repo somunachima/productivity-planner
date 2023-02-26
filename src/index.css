@@ -19,7 +19,7 @@ body {
   border-radius: 1rem;
 }
 .form-control {
-  margin: 50px 0;
+  margin: auto 50px;
   width: 96%;
   border-radius: 1rem;
 }
@@ -50,7 +50,8 @@ body {
   font-family: inherit;
 }
 .btn:hover {
-  background: #000;
+  background-color: #000;
+  transform: scale (1.08);
 }
 .btn:focus {
   outline: none;
@@ -75,9 +76,17 @@ body {
   padding: 0px 30px;
   font-size: large;
   background-color: #fff;
+  transition: 2s;
 }
 .app-header {
   font-family: 'Unbounded', cursive;
+}
+.info-btn {
+  text-decoration: none;
+  color: black;
+}
+.info-btn:hover {
+  color: #223F9A;
 }
 
 /* Task */
@@ -89,18 +98,21 @@ body {
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
-  transition: 1.1s;
+  transition: 2s;
+}
+.task:hover {
+  transform: scale (1.08);
 }
 .textBold {
   font-weight: bold;
-  color: #223F9A;
+  color: black;
 }
 .task-number {
   color: black;
   margin: 0px 30px;
 }
 .delIcon {
-  color: darkgrey;
+  color: black;
   cursor: pointer;
   align-items: center;
   font-size: 15px;
@@ -119,8 +131,15 @@ body {
   align-items: center;
 }
 
+/* POPUP */
+
+
+
+
+/* FORMS */
 .add-form {
   margin-bottom: 40px;
+  background-color: #fff;
 }
 .form-control {
   margin: 20px 0;
@@ -138,6 +157,8 @@ body {
 .form-control input:focus {
   outline: 0;
 }
+
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .spinnerContainer {
     margin: 250px auto 0 auto;
