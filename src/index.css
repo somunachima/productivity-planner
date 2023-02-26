@@ -44,6 +44,10 @@
   outline: none;
   color: white;
 }
+.btn:hover {
+  color: white;
+  background: #223F9A;
+}
 .btn-block {
   display: block;
   width: 100%;
@@ -72,13 +76,17 @@
 }
 .textBold {
   font-weight: bold;
+  color: #223F9A;
+}
+.task-number {
+  color: #223F9A;
 }
 .delIcon {
-  color: red;
+  color: grey;
   cursor: pointer;
 }
 .editIcon {
-  color: blue;
+  color: #223F9A;
   cursor: pointer;
 }
 

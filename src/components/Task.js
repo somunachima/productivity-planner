@@ -8,7 +8,14 @@ const Task = ({ task, onDelete, onEdit }) => {
             <p className="taskName">
               <span className="textBold">Task Name:</span> {task.text}
             </p>
-        <p className="taskDate"><span className="textBold">Date of Completion:</span>              {task.day}
+            <p className="taskDate">
+              <span className="textBold">Date of Completion:</span> {task.day}
+            </p>
+            <p className="taskTime">
+              <span className="textBold">Time of Completion:</span> {task.time}
+            </p>
+            <p className="taskType">
+              <span className="textBold">Type of Task:</span> {task.type}
             </p>
             </div>
             <div>

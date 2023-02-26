@@ -1,3 +1,5 @@
+// Importing Styling
+import "./index.css"
 // Importing Components
 import Header from './components/Header';
 import Tasks from './components/Tasks';
@@ -101,7 +103,7 @@ function App() {
                         {/* Revealing of Add Task Form */}
                         {showAddTask && <AddTask onSave={addTask} />}
                         {/* Task Counter */}
-                        <h3>Number of Tasks: {tasks.length}</h3>
+                        <h3 className="task-number">Tasks</h3>
                         {/* Displaying of Tasks */}
                         {
                             tasks.length > 0 ?
