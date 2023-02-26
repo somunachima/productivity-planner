@@ -1,5 +1,6 @@
 // Importing Styling
 import "./index.css"
+import productive from './images/productive.png';
 // Importing Components
 import Header from './components/Header';
 import Tasks from './components/Tasks';
@@ -9,6 +10,7 @@ import { useState, useEffect } from 'react';
 // Importing Packages
 import { v4 as uuidv4 } from 'uuid';
 import Swal from "sweetalert2";
+
 function App() {
     // All States
     const [loading, setloading] = useState(true); // Pre-loader before page renders

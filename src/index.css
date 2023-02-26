@@ -1,18 +1,27 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Unbounded', cursive;
+  background-color: #fff;
+  background-image: url(./images/productive.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* background-image: url('productive.png'); */
+}
 
 /* Add Task Form */
 .add-form {
-  margin-bottom: 40px;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 1rem;
 }
 .form-control {
-  margin: 20px 0;
+  margin: 50px 0;
+  width: 96%;
+  border-radius: 1rem;
 }
 .form-control label {
   display: block;
@@ -40,6 +49,9 @@
   font-size: 15px;
   font-family: inherit;
 }
+.btn:hover {
+  background: #000;
+}
 .btn:focus {
   outline: none;
   color: white;
@@ -50,7 +62,8 @@
 }
 .btn-block {
   display: block;
-  width: 100%;
+  width: 99%;
+  /* margin-left: 10px; */
 }
 
 /* Header */
@@ -59,35 +72,51 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  padding: 0px 30px;
+  font-size: large;
+  background-color: #fff;
 }
 .app-header {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Unbounded', cursive;
 }
 
 /* Task */
 .task {
-  background: #f4f4f4;
-  margin: 5px;
+  background-color: #FFFFFF;
+  margin: 10px 30px;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 1rem;
   display: flex;
   justify-content: space-between;
+  transition: 1.1s;
 }
 .textBold {
   font-weight: bold;
   color: #223F9A;
 }
 .task-number {
-  color: #223F9A;
+  color: black;
+  margin: 0px 30px;
 }
 .delIcon {
-  color: grey;
+  color: darkgrey;
   cursor: pointer;
+  align-items: center;
+  font-size: 15px;
 }
 .editIcon {
-  color: #223F9A;
+  color: black;
   cursor: pointer;
+  align-items: center;
+  font-size: 15px;
+}
+.task-button {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: right;
+  align-items: center;
 }
 
 .add-form {

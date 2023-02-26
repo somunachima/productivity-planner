@@ -17,10 +17,10 @@ const Task = ({ task, onDelete, onEdit }) => {
             <p className="taskType">
               <span className="textBold">Type of Task:</span> {task.type}
             </p>
-            </div>
-            <div>
+          </div>
+          <div className="task-button">
+            <p><FaPencilAlt onClick={() => onEdit(task.id)} className="editIcon" /></p>
             <p><FaTimes onClick={() => onDelete(task.id)} className="delIcon" /></p>
-          <p><FaPencilAlt onClick={() => onEdit(task.id)} className="editIcon" /></p>
           </div>
         </div>
       </div>
