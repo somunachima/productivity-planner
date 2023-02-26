@@ -18,6 +18,22 @@ function App() {
             setloading(false);
         }, 3500);
     }, []);
-    
+    return (
+      <>
+        <div className="container">
+          {/* App Header */}
+          <Header showForm={() => setShowAddTask(!showAddTask)} changeTextAndColor={showAddTask} />
+          {/* Revealing the Add Task Form */}
+          {showAddTask && <AddTask onSave={addTask} />}
+
+          {/* Displaying Tasks */}
+          {
+            tasks.length > 0 ?
+              (<Tasks tasks={tasks} />) :
+              ('No Task Found!')
+          }
+        </div>
+      </>
+  )
 }
 export default App;
