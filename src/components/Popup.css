@@ -9,6 +9,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: 2s;
+}
+h6 {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+p {
+  font-size: 12px;
 }
 
 .popup-inner {
@@ -20,7 +29,6 @@
   min-height: 300px;
   border-radius: 1rem;
   background-color: #FFF;
-  transform: 2s;
 }
 
 .popup-inner .close-btn {
@@ -36,6 +44,15 @@
   }
 
 .popup-inner .close-btn:hover {
+  color: #223F9A;
+  transform: scale (1.08);
+}
+
+.grace {
+  text-decoration: none;
+  color: black;
+}
+.grace:hover {
   color: #223F9A;
   transform: scale (1.08);
 }
