@@ -1,6 +1,3 @@
-// Importing Styling
-import "./index.css"
-import productive from './images/productive.png';
 // Importing Components
 import Header from './components/Header';
 import Tasks from './components/Tasks';

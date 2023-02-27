@@ -82,11 +82,15 @@ body {
   font-family: 'Unbounded', cursive;
 }
 .info-btn {
+  font-family: 'Unbounded', cursive;
   text-decoration: none;
   color: black;
+  border: 0px;
+  background-color: transparent;
 }
 .info-btn:hover {
   color: #223F9A;
+  transform: scale (1.08);
 }
 
 /* Task */
