@@ -20,6 +20,7 @@
   min-height: 300px;
   border-radius: 1rem;
   background-color: #FFF;
+  transform: 2s;
 }
 
 .popup-inner .close-btn {
