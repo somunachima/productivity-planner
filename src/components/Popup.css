@@ -16,8 +16,11 @@ h6 {
   text-align: center;
   margin: auto;
 }
-p {
+.popup p {
   font-size: 12px;
+}
+.task-type {
+  text-align: left;
 }
 
 .popup-inner {

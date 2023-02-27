@@ -6,11 +6,13 @@ body {
   background-color: #fff;
   background-image: url(./images/productive.png);
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   /* background-image: url('productive.png'); */
 }
-
+.comtainer {
+  width: 100vh;
+}
 /* Add Task Form */
 .add-form {
   margin: 30px;
@@ -72,11 +74,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   margin-bottom: 20px;
-  padding: 0px 30px;
+  padding: 0px 10px;
   font-size: large;
   background-color: #fff;
   transition: 2s;
+  
 }
 .app-header {
   font-family: 'Unbounded', cursive;
@@ -96,7 +100,7 @@ body {
 /* Task */
 .task {
   background-color: #FFFFFF;
-  margin: 10px 30px;
+  margin: 10px 70px;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 1rem;
@@ -113,7 +117,7 @@ body {
 }
 .task-number {
   color: black;
-  margin: 0px 30px;
+  margin: 0px 70px;
 }
 .delIcon {
   color: black;
@@ -171,7 +175,7 @@ body {
 }
 @media (max-width: 425px) {
   .container {
-    max-width: 90%;
+    max-width: 1000%;
   }
   .spinnerContainer {
     margin: 250px auto 0 auto;
@@ -180,7 +184,7 @@ body {
 }
 @media (max-width: 375px) {
   .container {
-    max-width: 95%;
+    max-width: 100%;
   }
   .app-header {
     font-size: 20px;
@@ -192,7 +196,7 @@ body {
 }
 @media (max-width: 320px) {
   .container {
-    max-width: 95%;
+    max-width: 100%;
   }
   .app-header {
     font-size: 18px;
