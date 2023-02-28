@@ -3,7 +3,7 @@ import './Popup.css'
 
 function Popup(props) {
     return (props.trigger) ? (
-        <div>
+        <div onClick={() => props.setTrigger(false)}>
           <div className="popup">
             <div className="popup-inner">
               <button className="close-btn" onClick={() => props.setTrigger(false
