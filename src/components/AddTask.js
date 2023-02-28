@@ -54,7 +54,7 @@ const AddTask = ({onSave}) => {
         onSave({ text, day, time, type });
     }
     setText('');
-    setTime('');
+    setType('');
     setDay('');
     setTime('');
   }
