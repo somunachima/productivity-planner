@@ -23,3 +23,9 @@ I initially found it quite challenging creating multiple input boxes for the for
 ## Next Steps
 In future, I would like to add a filter that allows people to search tasks based on date and type of task. I also want to create a page for each task where people can add more notes and set an alarm to remind them of the deadline.
 
+<img width="933" alt="Screenshot 2023-02-27 at 15 36 30" src="https://user-images.githubusercontent.com/114405652/224510527-7115a4f6-9d3c-4d92-8ed6-e0594b1075bf.png">
+
+<img width="932" alt="Screenshot 2023-02-27 at 15 35 21" src="https://user-images.githubusercontent.com/114405652/224510537-d4ed8331-c6e3-4de5-ba08-95f3f761fc7c.png">
+
+<img width="932" alt="Screenshot 2023-02-27 at 15 35 00" src="https://user-images.githubusercontent.com/114405652/224510542-bb33c038-90c5-4313-860a-853f2dec2818.png">
+
